@@ -1,0 +1,31 @@
+; the next section is mandatory
+[general]
+name=Move layer to layer [GasSur]
+description=Move all layer elements plugin
+
+version=1.0
+qgisMinimumVersion=2.0
+
+; not used yet, will allow to put a plugin in the right menu
+category=Layers
+
+author=INGGEPRO
+email=contacto@inggepro.cl
+
+; end of mandatory metadata
+
+; start of optional metadata
+
+changelog=1.0
+    ...First version
+
+; tags are in comma separated value format, spaces are allowed
+tags=Move layer
+
+homepage=http://www.inggepro.cl
+
+; path to a icon within the plugin folder
+icon=move.png
+
+experimental=False
+deprecated=False

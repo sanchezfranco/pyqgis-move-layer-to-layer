@@ -14,6 +14,7 @@
 
 **Cambia el nombre del archivo descargado por "gassur"**  
 
-**Inicia QGIS y ve a `Complementos->Administra e instala complementos`. Busca "Move layer to layer [GasSur]" y hazle click**  
+**Inicia QGIS y ve a `Complementos->Administra e instala complementos`** 
+  * Busca "Move layer to layer [GasSur]" y hazle click.
 
 **Un nuevo botón se agregará a la barra de QGIS**  

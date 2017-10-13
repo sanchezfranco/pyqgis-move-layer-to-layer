@@ -5,7 +5,7 @@
 ### Instalación
 
 **Descargar el archivo zip**  
-![download plugin](tutorial/1.png)
+![pyqgis plugin](tutorial/1.png)
 
 **Extrae el archivo zip en la carpeta de plugins de QGIS**  
   * En GNU/Linux, probablemente: `/home/USER/.qgis2/python/plugins/`

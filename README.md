@@ -8,13 +8,19 @@
 ![pyqgis plugin](tutorial/1.png)
 
 **Extrae el archivo zip en la carpeta de plugins de QGIS**  
-  * En GNU/Linux, probablemente: `/home/USER/.qgis2/python/plugins/`
-  * En Windows, probablemente: `C:\Usuarios\tu_nombre_de_usuario\.qgis2\python\plugins\`    
-  * Si no existe la carpeta plugins, creala.  
-
-**Cambia el nombre del archivo descargado por "gassur"**  
+  * En Windows, en uno de estos directorios: 
+    `C:\Usuarios\tu_nombre_de_usuario\.qgis2\python\plugins\` 
+    o bien, en:  
+    `C:\Archivos de programa (x86)\QGIS 2.18\apps\qgis\python\plugins`
+  * Renombra la carpeta extraída a "gassur".  
+![pyqgis plugin](tutorial/2.png)  
 
 **Inicia QGIS y ve a `Complementos->Administra e instala complementos`** 
-  * Busca "Move layer to layer [GasSur]" y hazle click.
+  * Busca "Move layer to layer [GasSur]" y hazle click.  
 
-**Un nuevo botón se agregará a la barra de QGIS**  
+![pyqgis plugin](tutorial/3.png)  
+![pyqgis plugin](tutorial/4.png)    
+
+**Con esto, Un nuevo botón se agregará a la barra de QGIS y el plugin se encontrará listo para ser utilizado.**  
+
+

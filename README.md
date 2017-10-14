@@ -4,7 +4,7 @@
 
 ### Instalación
 
-**Descargar el archivo zip**  
+**Descargar el archivo zip desde la sección superior de esta página**  
 ![pyqgis plugin](tutorial/1.png)
 
 **Extrae el archivo zip en la carpeta de plugins de QGIS**  
@@ -23,6 +23,6 @@
 
 ![pyqgis plugin](tutorial/4.png)    
 
-**Con esto, Un nuevo botón se agregará a la barra de QGIS y el plugin se encontrará listo para ser utilizado.**  
+**Con esto, un nuevo botón se agregará a la barra de QGIS y el plugin se encontrará listo para ser utilizado.**  
 
 

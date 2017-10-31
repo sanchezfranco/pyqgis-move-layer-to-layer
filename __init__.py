@@ -1,13 +1,15 @@
+# -*- coding: utf-8 -*-
 """
 /***************************************************************************
-Move features
-A QGIS plugin
-Move massive elements to layer plugin
--------------------
-begin : 2017-10-13
-copyright : (C) 2017 by sanchezfranco
-email : saanchezfranco@gmail.com
-***************************************************************************/
+
+A QGIS plugin for move all selected features from layer and snap it
+to another vertex.
+
+                              -------------------
+        begin                : 2017-10-20
+        copyright            : (C) 2017
+        email                : saanchezfranco@gmail.com
+ ***************************************************************************/
 
 /***************************************************************************
  *                                                                         *
@@ -17,19 +19,11 @@ email : saanchezfranco@gmail.com
  *   (at your option) any later version.                                   *
  *                                                                         *
  ***************************************************************************/
+
  This script initializes the plugin, making it known to QGIS.
 """
-def name():
-    return "Plugin GasSur"
-def description():
-    return "Move massive elements to layer plugin"
-def version():
-    return "Version 1.0"
-def icon():
-    return "move.png"
-def qgisMinimumVersion():
-    return "2.0"
+#name_of_file_without_py/name_of_class_on_it
+
 def classFactory(iface):
-    # load Main class from file gassur.py
-    from gassur import Main
-    return Main(iface)
+    from move import MovewithSnap
+    return MovewithSnap(iface)

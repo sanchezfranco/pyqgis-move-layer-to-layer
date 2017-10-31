@@ -1,30 +1,17 @@
-; the next section is mandatory
 [general]
-name=Move layer to layer [GasSur]
-description=Move all layer elements plugin
-
-version=1.0
-qgisMinimumVersion=2.0
-
-; not used yet, will allow to put a plugin in the right menu
-category=Layers
-
+name=MovewithSnap
+email=saanchezfranco@gmail.com
 author=INGGEPRO
-email=contacto@inggepro.cl
+qgisMinimumVersion=2.0
+description=A QGIS plugin for move all selected features from layer and snap it to another vertex.
+about= QGIS plugin to move features on snap.
+version=version 1.2
+tracker=http://www.inggepro.cl
+repository=https://github.com/sanchezfranco/pyqgis-move-layer-with-snapping
 
-; end of mandatory metadata
-
-; start of optional metadata
-
-changelog=1.0
-    ...First version
-
-; tags are in comma separated value format, spaces are allowed
-tags=Move layer
-
+category:Features
+tags=move,snap
 homepage=http://www.inggepro.cl
-
-; path to a icon within the plugin folder
 icon=move.png
 
 experimental=False

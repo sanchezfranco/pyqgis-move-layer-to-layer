@@ -1,4 +1,4 @@
-## PyQGIS Move active layer to layer plugin
+## PyQGIS Move Layer Plugin
 
 A QGIS plugin for move all selected features from layer and snap it
 to another vertex.

@@ -2,27 +2,12 @@
 
 ## v1.0 (13-10-2017)
 
-### Instalación
+### Installation
 
-**Descargar el archivo zip desde la sección superior de esta página**  
-![pyqgis plugin](tutorial/1.png)
-
-**Extrae el archivo zip en la carpeta de plugins de QGIS**  
-  * En Windows, en uno de estos directorios: 
-    `C:\Usuarios\tu_nombre_de_usuario\.qgis2\python\plugins\` 
-    o bien, en:  
-    `C:\Archivos de programa (x86)\QGIS 2.18\apps\qgis\python\plugins`
-  * Renombra la carpeta extraída a "gassur".  
-![pyqgis plugin](tutorial/2.png)  
-
-**Inicia QGIS y ve a `Complementos->Administra e instala complementos`** 
-
-![pyqgis plugin](tutorial/3.png)  
-
-  * Busca "Move layer to layer [GasSur]" y hazle click.  
-
-![pyqgis plugin](tutorial/4.png)    
-
-**Con esto, un nuevo botón se agregará a la barra de QGIS y el plugin se encontrará listo para ser utilizado.**  
-
-
+Download the zip file.  
+Extract it in your QGIS plugins folder.  
+On GNU/Linux, probably: /home/USER/.qgis2/python/plugins/  
+On Windows, probably: C:\Users\user_name\.qgis2\python\plugins\  
+Change the name of the extracted folder to "test".  
+Start your QGIS and go to Plugins->Manage and Install Plugins.  
+Type "MoveWithSnap" and check the plugin.

@@ -1,6 +1,6 @@
 # PyQGIS Move active layer to layer plugin
 
-## v1.0 (13-10-2017)
+## v1.0 (31-10-2017)
 
 ### Installation
 

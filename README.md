@@ -13,7 +13,7 @@ On GNU/Linux, probably: /home/USER/.qgis2/python/plugins/
 
 On Windows, probably: C:\Users\user_name.qgis2\python\plugins\  
 
-Change the name of the extracted folder to "test".  
+Change the name of the extracted folder to "MovewithSnap".  
 
 Start your QGIS and go to Plugins->Manage and Install Plugins.  
 
